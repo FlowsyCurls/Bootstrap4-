@@ -37,6 +37,17 @@ body {
   border-bottom: 1px solid #ddd;
   padding: 10px;
 }
+.modal-header {
+  background-color: #512DA8;
+  back: floralwhite;
+
+}
+.modal-header .close {
+  color: floralwhite;
+}
+.modal-content {
+  background-color: #D1C4E9;
+}
 .carousel {
   background: #512DA8;
 }

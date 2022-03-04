@@ -1,6 +1,5 @@
 // Adding Less Variables
 
-
 // colors
 @lt-gray: #ddd;
 @background-dark: #512DA8;
@@ -62,8 +61,23 @@ body{
 }
 
 
-// Nesting Selectors
+.modal-header {
+    background-color: @background-dark;
+    color: floralwhite;
 
+    .close {
+        /* The Close Button */
+        color: floralwhite
+    }
+}
+
+.modal-content {
+    background-color: @background-pale;
+}
+
+
+
+// Nesting Selectors
 .carousel {
     background:@background-dark;
 
